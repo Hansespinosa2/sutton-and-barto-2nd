@@ -1,5 +1,6 @@
 \section{Multi-armed Bandits}
 
+
 \subsection{Exercise 2.1}
 Define $a_1$, $a_2$ as the two actions that can be taken, $\varepsilon$ as the probability of selecting a random action, and $r$ as a randomly generated number $\in [0,1]$. 
 \begin{equation}
@@ -26,3 +27,14 @@ Sample a trajectory $(a_1,r_1,a_2,\dots) \text{ } as \text{ } (1,-1, 2,1, 2,-2,2
 
 \subsection{Exercise 2.3}
 In the long run, the $\varepsilon = 0.01$ will perform the best. On average, it will pick the optimal action more frequently while still sampling each action an infinite number of times. In the long run, as $Q(a) \approx q_*(a), $ $\varepsilon= 0.01$ will sample the optimal action 99.1\% of the time,  whereas $\varepsilon = 0.1$ will sample the optimal action 91\% of the time, resulting in a smaller frequency of the optimal action being picked and a smaller total reward over the long run. 
+
+\subsection{Exercise 2.4}
+Deriving the weighting on prior reward for general case $\alpha_n \not= \alpha$
+
+\begin{gather}
+  Q_{n+1} = Q_n + \alpha_n[R_n - Q_n] \\
+  Q_{n+1} = \alpha_nR_n + (1-\alpha_nQ_n) \\
+  Q_{n+1} = \alpha_nR_n + (1-\alpha_n[\alpha_{n-1}R_{n-1} + (1-\alpha_{n-1})Q_{n-1}]) \\
+  Q_{n+1} = \alpha_nR_n + (1-\alpha_n)\alpha_{n-1}R_{n-1} + (1-\alpha_n)(1-\alpha_{n-1})Q_{n-1} \\
+  Q_{n+1} = Q_1\prod\limits_{i=1}^n(1-\alpha_i) + \sum\limits_{i=1}^nR_i\alpha_i\prod\limits_{j=i+1}^n(1-\alpha_j)
+\end{gather}
