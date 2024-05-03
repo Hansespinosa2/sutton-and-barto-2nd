@@ -1,0 +1,21 @@
+name: sutton-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10.11
+  - pip
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - ipython
+  - jupyter
+  - pytorch
+  - torchvision
+  - gym
+  - pip:
+    - tensorboard
+    - tensorflow  # Optional if also using TensorFlow in some parts
+    - stable-baselines3  # A popular set of improved implementations of RL algorithms
+    - box2d-py  # Required by some Gym environments
