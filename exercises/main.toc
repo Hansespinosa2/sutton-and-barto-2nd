@@ -12,3 +12,5 @@
 \contentsline {subsection}{\numberline {2.5}Exercise 2.5}{4}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Exercise 2.6}{4}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Exercise 2.7}{4}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Exercise 2.8}{4}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Exercise 2.9}{5}{subsection.2.9}%

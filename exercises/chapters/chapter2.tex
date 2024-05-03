@@ -59,3 +59,7 @@ Optimism will cause every option to look appealing until the option has been sam
 \subsection{Exercise 2.7}
 $\bar{o}_0 = 0$, therefore $\bar{o}_1 = 0 + \alpha(1-0) = \alpha$. $\beta_1 = \alpha/\alpha = 1$. Using the equation derived at the end of exercise 2.4,  $Q_1\prod\limits_{i=1}^n(1-\alpha_i)$ is 0 since $\alpha_1$ is 0. $Q_n$ does not include $Q_1$ so it is without initial bias.
 
+\subsection{Exercise 2.8}
+In the UCB algorithm, each arm must be sampled once. Each arm that has not been pulled ($N_t(a) = 0$), is classified as a maximizing action and will likely be pulled in the first $|A|$ actions. Since each arm has been sampled, on average, the optimal action will be the most appealing as it will provide the most reward in the long run. Therefore, each action will be made once and then the best seeming action is most likely to be selected.
+
+\subsection{Exercise 2.9}
