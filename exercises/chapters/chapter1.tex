@@ -1,0 +1,17 @@
+\section{Introduction}
+
+
+\subsection{Exercise 1.1}
+The games would eventually result in a tie for every game. Since the model learns the optimal decision, and tic-tac-toe is a game where it is possible to always end in a tie in the case of optimal playing, the models would converge to always ending in a tie.
+
+\subsection{Exercise 1.2}
+We could model the value function in a way where symmetrical states have the same value function. This would benefit exploration because the agent would be able to learn the value function for a state that it has never truly reached. If the opponent did not take advantage of symmetries but the agent does, the opponent would have to experience a state before getting an approximation of the value function. The agent does not need to reach a state because it can use a symmetrical state as an accurate approximation of the value function for the other symmetrical states.
+
+\subsection{Exercise 1.3}
+Not necessarily, greedy actions can cause agents to get stuck in local minima. An agent could perform better if the greedy actions happen to be the best ones, but there could be a better set of actions that are in states the agent has never seen, and since it hasn't seen the state it may never due to its greedy actions.
+
+\subsection{Exercise 1.4}
+If an agent decides to learn from exploration, then it will learn the policy that it is using; a policy that combines optimal and suboptimal actions. If an agent explores but only learns from the greedy actions, then the value function it learns would be the value function that represents the optimal policy, not the policy it is actually executing (a mix of optimal and explorative).
+
+\subsection{Exercise 1.5}
+The tic-tac-toe is a rather simple problem but an agent could learn faster if it learned the value function of the opponent as well as itself. It could maybe use the opponent's value function to inform it's own since the environment is symmetrical to both of them.

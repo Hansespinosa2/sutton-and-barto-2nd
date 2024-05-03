@@ -1,0 +1,27 @@
+
+\RequirePackage[orthodox]{nag}
+\documentclass[11pt]{article}
+
+%% Define the include path
+\makeatletter
+\providecommand*{\input@path}{}
+\g@addto@macro\input@path{{include/}{../include/}}
+\makeatother
+
+\usepackage{include/akazachk}
+
+\title{My Solutions for Exercises of Sutton and Barto 2nd Edition}
+\author{Andres Espinosa}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+
+
+
+\end{document}

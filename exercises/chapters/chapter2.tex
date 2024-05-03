@@ -1,0 +1,15 @@
+\section{Multi-armed Bandits}
+
+\subsection{Exercise 2.1}
+define $a_1$, $a_2$ as the two actions that can be taken, $\varepsilon$ as the probability of selecting a random action, and $r$ as a randomly generated number $\in [0,1]$. 
+\begin{equation}
+    \text{action} = 
+    \begin{cases}
+        \text{random choice of $a_1$ or $a_2$} & \text{if } r < \varepsilon \\
+        \text{greedy choice} & \text{if } r \geq \varepsilon
+        \end{cases}
+\end{equation}
+
+if $\varepsilon$ is 0.5, there is a 0.5 probability of taking the greedy choice and 0.5 probability of picking the random choice. The random choice has two actions, therefore there is a choice of picking $a_1$ or $a_2$ with 0.25 prob each. $0.25 + 0.50 = 0.75$, therefore the probability of the greedy action getting selected is 0.75
+
+\subsection{Exercise 2.2}
