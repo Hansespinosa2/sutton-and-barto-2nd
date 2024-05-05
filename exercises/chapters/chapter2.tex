@@ -63,3 +63,28 @@ $\bar{o}_0 = 0$, therefore $\bar{o}_1 = 0 + \alpha(1-0) = \alpha$. $\beta_1 = \a
 In the UCB algorithm, each arm must be sampled once. Each arm that has not been pulled ($N_t(a) = 0$), is classified as a maximizing action and will likely be pulled in the first $|A|$ actions. Since each arm has been sampled, on average, the optimal action will be the most appealing as it will provide the most reward in the long run. Therefore, each action will be made once and then the best seeming action is most likely to be selected.
 
 \subsection{Exercise 2.9}
+Soft-max as defined by equation 2.11 in the book is:
+\begin{equation}
+  \pi_t(a) = \frac{e^{H_t(a)}}{\sum_{b=1}^{k}e^{H_t(b)}}
+\end{equation}
+Sigmoid is defined as:
+\begin{equation}
+  \sigma(x) = \frac{e^x}{e^x+1}
+\end{equation}
+
+When there are only two actions, $a_1$ and $a_2$, they end up being the same thing. This can be shown since the preference $H_t(a)$ only matters in relative importance to the other actions possible. To illustrate how this means the sigmoid is the same as soft-max, define $H_t(a_1) = n$ and $H_t(a_2) = m$. Subtracting m from both results in $H_t(a_1) = n-m$ and $H_t(a_2) = 0$. Since the relative aspect is the only thing that matters, the relative preference is still retained and this is a valid transformation. Substituting $n$ and $m$ into the softmax equation yields:
+
+\begin{gather}
+  \pi_t(a_1) = \frac{e^{H_t(a_1)}}{e^{H_t(a_1)} + e^{H_t(a_2)}} \\
+  \pi_t(a_1) = \frac{e^{n-m}}{e^{n-m} + e^{0}} \\
+  \pi_t(a_1) = \frac{e^{n-m}}{e^{n-m} + 1} \\
+  \therefore
+  \pi_t(a_1) = \sigma(n-m)
+\end{gather}
+
+\subsection{Exercise 2.10}
+If you do not know the case, then the problem can be framed as a 2-armed bandit where the reward structure is: $a_1$ gives 10 w/ probability 0.50 and 90 w/ probability 0.50, $a_2$ gives 20 w/ probability 0.50 and 80 w/ probability 0.50. 
+
+The expected reward for always picking $a_1$ is $E[a_1] = \frac{1}{2} * 10 + \frac{1}{2} * 90 = 50$ and the expected reward for always picking $a_2$ is $E[a_2] = \frac{1}{2} * 20 + \frac{1}{2} * 80 = 50$. Since the expected rewards are the same for both actions, the best expected reward is 50 and the policy does not affect the expected reward.
+
+In event that the case is known, it is indeed important which action you take in order to maximize reward. You should pick $a_2$ when in case B and $a_1$ when in case A. The best expected reward that can be achieved with this strategy is $E[pi] = \frac{1}{2} * 20 + \frac{1}{2} * 90 = 55$
