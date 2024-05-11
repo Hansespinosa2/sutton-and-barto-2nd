@@ -15,3 +15,5 @@
 \contentsline {subsection}{\numberline {2.8}Exercise 2.8}{4}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}Exercise 2.9}{5}{subsection.2.9}%
 \contentsline {subsection}{\numberline {2.10}Exercise 2.10}{5}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Exercise 2.11}{5}{subsection.2.11}%
+\contentsline {section}{\numberline {3}Finite Markov Decision Processes}{7}{section.3}%
