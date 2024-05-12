@@ -20,3 +20,4 @@
 \contentsline {subsection}{\numberline {3.1}Exercise 3.1}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Exercise 3.2}{7}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Exercise 3.3}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Exercise 3.4}{8}{subsection.3.4}%
