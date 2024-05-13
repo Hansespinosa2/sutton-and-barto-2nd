@@ -15,3 +15,17 @@ The answer really depends on the underlying goal of the person creating the agen
 
 \subsection{Exercise 3.4}
 
+\begin{tabular}{ |c| c| c| c| c|}
+  \hline
+$s$ & $a$ & $s^\prime$ & $r$ & $p(s^\prime,r|s,a)$ \\
+\hline
+high & search & high & $r_{search}$ & $\alpha$ \\
+high & search & low & $r_{search}$ & $1-\alpha$ \\
+high & wait & high & $r_{wait}$ & $1$ \\
+low & search & low & $r_{search}$ & $\beta$ \\
+low & search & high & $-3$ & $1-\beta$ \\
+low & recharge & high & $0$ & $1$ \\
+low & wait & low & $r_{wait}$ & $1$ \\
+\hline
+\end{tabular}
+
