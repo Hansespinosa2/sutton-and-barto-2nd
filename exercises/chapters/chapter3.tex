@@ -15,7 +15,7 @@ The answer really depends on the underlying goal of the person creating the agen
 
 \subsection{Exercise 3.4}
 
-\begin{tabular}{ |c| c| c| c| c|}
+\begin{tabular}{ c c c c| c}
   \hline
 $s$ & $a$ & $s^\prime$ & $r$ & $p(s^\prime,r|s,a)$ \\
 \hline
@@ -29,3 +29,53 @@ low & wait & low & $r_{wait}$ & $1$ \\
 \hline
 \end{tabular}
 
+\subsection{Exercise 3.5}
+Equation 3.3 is:
+\begin{equation}
+  \sum_ {s^\prime \in S} \sum_{r \in R} p(s^\prime, r | s,a) = 1, \forall s \in S, a \in A(s)
+\end{equation}
+
+Modifying this for the episodic case:
+\begin{equation}
+  \sum_ {s^\prime \in S^+} \sum_{r \in R} p(s^\prime, r | s,a) = 1, \forall s \in S, a \in A(s)
+\end{equation}
+
+\subsection{Exercise 3.6}
+The return for this discounted episodic case would be $-\gamma^{K-1}$ where $K$ is the number of time steps in the episode, normally $T$ in episodic cases but for the sake of comparison we use $K$. This is identical to the discounted continuous case.
+
+\subsection{Exercise 3.7}
+Since this is an episodic case and is not discounted, the robot will receive a reward of 1 every time it escapes the maze no matter the amount of time spent in the maze. The fact that the return at each time step is 1 no matter the state the robot is in or the action it chooses. The robot will eventually escape the maze and so there is no hurry in finding an optimal path.A better approach would be to give the robot a negative reward for every time step in order to incentivize the robot to escape as soon as possible.
+
+\subsection{Exercise 3.8}
+$\gamma = 0.5$ and $ R_1=-1, R_2=2, R_3=6, R_4=3, R_5=2$ and $T=5$
+
+\begin{gather}
+  G_0 = -1 + 0.5*2 + 0.5^2 * 6 + 0.5^3 * 3 + 0.5^4*2 = 2 \\
+  G_1 = 2 + 0.5 * 6 + 0.5^2 * 3 + 0.5^3*2 = 6 \\
+  G_2 = 6 + 0.5 * 3 + 0.5^2*2 = 8 \\
+  G_3 = 3 + 0.5*2 = 4 \\
+  G_4 = 2 = 2 \\
+  G_5 = 0 = 0
+\end{gather}
+
+\subsection{Exercise 3.9}
+$\gamma = 0.9, R_1 = 2, R_i = 7 \text{ }\forall i \in [2,\infty]$
+
+\begin{gather}
+  G_0 = 2 + \sum_{i=2}^{\infty} 0.9^{i-1}7 = 2 - 7 + 7\sum_{i=0}^{\infty} 0.9^{i} \\
+  = -5 + 7/0.1 = 65 \\
+  G_1 = \sum_{i=1}^{\infty} 0.9^{i-1}7 = 7\sum_{i=0}^{\infty} 0.9^{i} \\
+  = 7/0.1 = 70
+\end{gather}
+
+\subsection{Exercise 3.10}
+Proving $\sum_{k=0}^{\infty}\gamma^k = \frac{1}{1-\gamma}$: 
+\begin{gather}
+  \sum_{k=0}^{\infty}\gamma^k = \lim_{k \to \infty}\gamma^0 + \gamma^1 + \gamma^2 + \dots + \gamma^k \\
+  \lim_{k \to \infty}\gamma^0 + \gamma^1 + \gamma^2 + \dots + \gamma^k = \lim_{k \to \infty}\gamma^0 + \gamma^1 + \gamma^2 + \dots + \gamma^k + \gamma^{k+1} \\
+  (1-\gamma)\lim_{k \to \infty}\gamma^0 + \gamma^1 + \gamma^2 + \dots + \gamma^k = (1-\gamma)\lim_{k \to \infty}\gamma^0 + \gamma^1 + \gamma^2 + \dots + \gamma^k + \gamma^{k+1} \\
+  = 1+ \lim_{k \to \infty}(\gamma-\gamma)^0 + (\gamma-\gamma)^1 + (\gamma-\gamma)^2 + \dots + (\gamma-\gamma)^k + \gamma^{k+1} \\
+  = 1 + 0 \\
+  (1-\gamma)\sum_{k=0}^{\infty}\gamma^k = 1 \\
+  \sum_{k=0}^{\infty}\gamma^k = \frac{1}{1-\gamma}
+\end{gather}
