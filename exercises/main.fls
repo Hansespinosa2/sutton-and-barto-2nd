@@ -519,11 +519,11 @@ INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tf
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\hanse\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 OUTPUT main.toc
 INPUT .\chapters\chapter1.tex
 INPUT .\chapters\chapter1.tex
-INPUT C:\Users\hanse\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 OUTPUT chapters\chapter1.aux
 INPUT .\chapters\chapter1.tex
 INPUT .\chapters\chapter1.tex
