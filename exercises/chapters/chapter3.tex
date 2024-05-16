@@ -134,3 +134,25 @@ Finding $q_\pi(s,a)$bellman equation
 \end{gather}
 
 \subsection{Exercise 3.18}
+Equation of expected state value based off state action pairs. 
+\begin{equation}
+  v_\pi(s) = E\pi[q_\pi(s,a)]
+\end{equation}
+
+Equation without the expectation
+\begin{equation}
+  v_\pi(s) = \sum_{a}\pi(a|s) q_\pi(s,a)
+\end{equation}
+
+\subsection{Exercise 3.19}
+Equation of expected state-action value based off the future states and rewards.
+\begin{equation}
+  q_\pi(s,a) = E[R_{t+1} + \gamma v_\pi(S_{t+1}) | S_t = s, A_t = a ]
+\end{equation}
+
+Equation without the expectation
+\begin{equation}
+  q_\pi(s,a) = \sum_{s^\prime} \sum_r p(s^\prime, r| s,a)[r+\gamma v_\pi(s^\prime)]
+\end{equation}
+
+\subsection{Exercise 3.20}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.1)  16 MAY 2024 15:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.1)  16 MAY 2024 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1380,7 +1380,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 21
  (C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<include/../../code/figures/chapter2/exercise2_5a.png, id=210, 462.528pt x 346.896pt>
+<include/../../code/figures/chapter2/exercise2_5a.png, id=220, 462.528pt x 346.896pt>
 File: include/../../code/figures/chapter2/exercise2_5a.png Graphic file (type png)
 <use include/../../code/figures/chapter2/exercise2_5a.png>
 Package pdftex.def Info: include/../../code/figures/chapter2/exercise2_5a.png  used on input line 48.
@@ -1390,13 +1390,13 @@ Package pdftex.def Info: include/../../code/figures/chapter2/exercise2_5a.png  u
 
 
 {C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-<include/../../code/figures/chapter2/exercise2_5b.png, id=230, 462.528pt x 346.896pt>
+<include/../../code/figures/chapter2/exercise2_5b.png, id=240, 462.528pt x 346.896pt>
 File: include/../../code/figures/chapter2/exercise2_5b.png Graphic file (type png)
 <use include/../../code/figures/chapter2/exercise2_5b.png>
 Package pdftex.def Info: include/../../code/figures/chapter2/exercise2_5b.png  used on input line 53.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
  [5 <./include/../../code/figures/chapter2/exercise2_5a.png> <./include/../../code/figures/chapter2/exercise2_5b.png>]
-<include/../../code/figures/chapter2/exercise2.11.png, id=239, 462.528pt x 346.896pt>
+<include/../../code/figures/chapter2/exercise2.11.png, id=249, 462.528pt x 346.896pt>
 File: include/../../code/figures/chapter2/exercise2.11.png Graphic file (type png)
 <use include/../../code/figures/chapter2/exercise2.11.png>
 Package pdftex.def Info: include/../../code/figures/chapter2/exercise2.11.png  used on input line 95.
@@ -1416,23 +1416,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DF980F6B946864A4764A923E78849289;4630.
+(rerunfilecheck)             Checksum: 59BD7C0B585C700B0F1044EF25393F13;4884.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45155 strings out of 474423
- 954956 string characters out of 5741719
+ 45163 strings out of 474423
+ 955072 string characters out of 5741719
  1949496 words of memory out of 5000000
- 66663 multiletter control sequences out of 15000+600000
+ 66665 multiletter control sequences out of 15000+600000
  608069 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,1216b,982s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (12 pages, 433697 bytes).
+Output written on main.pdf (12 pages, 435878 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
- 324 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 340 words of extra memory for PDF output out of 10000 (max. 10000000)
 
