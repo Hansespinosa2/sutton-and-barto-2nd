@@ -46,3 +46,5 @@
 \contentsline {subsection}{\numberline {3.27}Exercise 3.27}{14}{subsection.3.27}%
 \contentsline {subsection}{\numberline {3.28}Exercise 3.28}{14}{subsection.3.28}%
 \contentsline {subsection}{\numberline {3.29}Exercise 3.29}{14}{subsection.3.29}%
+\contentsline {section}{\numberline {4}Dynamic Programming}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Exercise 4.1}{15}{subsection.4.1}%

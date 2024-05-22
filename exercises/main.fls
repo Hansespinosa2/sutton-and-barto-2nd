@@ -444,6 +444,9 @@ INPUT chapters\chapter2.aux
 INPUT .\chapters\chapter3.aux
 INPUT .\chapters\chapter3.aux
 INPUT chapters\chapter3.aux
+INPUT .\chapters\chapter4.aux
+INPUT .\chapters\chapter4.aux
+INPUT chapters\chapter4.aux
 OUTPUT main.aux
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -575,6 +578,12 @@ OUTPUT chapters\chapter3.aux
 INPUT .\chapters\chapter3.tex
 INPUT .\chapters\chapter3.tex
 INPUT chapters\chapter3.tex
+INPUT .\chapters\chapter4.tex
+INPUT .\chapters\chapter4.tex
+OUTPUT chapters\chapter4.aux
+INPUT .\chapters\chapter4.tex
+INPUT .\chapters\chapter4.tex
+INPUT chapters\chapter4.tex
 INPUT main.aux
 INPUT .\chapters\chapter1.aux
 INPUT .\chapters\chapter1.aux
@@ -585,6 +594,9 @@ INPUT chapters\chapter2.aux
 INPUT .\chapters\chapter3.aux
 INPUT .\chapters\chapter3.aux
 INPUT chapters\chapter3.aux
+INPUT .\chapters\chapter4.aux
+INPUT .\chapters\chapter4.aux
+INPUT chapters\chapter4.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT main.run.xml

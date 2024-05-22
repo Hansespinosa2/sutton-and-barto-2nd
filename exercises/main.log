@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.1)  18 MAY 2024 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.1)  21 MAY 2024 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1235,7 +1235,7 @@ Package csquotes Info: ... none found.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 16.
  (C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (main.aux (chapters/chapter1.aux) (chapters/chapter2.aux) (chapters/chapter3.aux))
+) (main.aux (chapters/chapter1.aux) (chapters/chapter2.aux) (chapters/chapter3.aux) (chapters/chapter4.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -1380,7 +1380,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 21
  (C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<include/../../code/figures/chapter2/exercise2_5a.png, id=265, 462.528pt x 346.896pt>
+<include/../../code/figures/chapter2/exercise2_5a.png, id=275, 462.528pt x 346.896pt>
 File: include/../../code/figures/chapter2/exercise2_5a.png Graphic file (type png)
 <use include/../../code/figures/chapter2/exercise2_5a.png>
 Package pdftex.def Info: include/../../code/figures/chapter2/exercise2_5a.png  used on input line 48.
@@ -1390,13 +1390,13 @@ Package pdftex.def Info: include/../../code/figures/chapter2/exercise2_5a.png  u
 
 
 {C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-<include/../../code/figures/chapter2/exercise2_5b.png, id=285, 462.528pt x 346.896pt>
+<include/../../code/figures/chapter2/exercise2_5b.png, id=295, 462.528pt x 346.896pt>
 File: include/../../code/figures/chapter2/exercise2_5b.png Graphic file (type png)
 <use include/../../code/figures/chapter2/exercise2_5b.png>
 Package pdftex.def Info: include/../../code/figures/chapter2/exercise2_5b.png  used on input line 53.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
  [5 <./include/../../code/figures/chapter2/exercise2_5a.png> <./include/../../code/figures/chapter2/exercise2_5b.png>]
-<include/../../code/figures/chapter2/exercise2.11.png, id=294, 462.528pt x 346.896pt>
+<include/../../code/figures/chapter2/exercise2.11.png, id=304, 462.528pt x 346.896pt>
 File: include/../../code/figures/chapter2/exercise2.11.png Graphic file (type png)
 <use include/../../code/figures/chapter2/exercise2.11.png>
 Package pdftex.def Info: include/../../code/figures/chapter2/exercise2.11.png  used on input line 95.
@@ -1409,30 +1409,37 @@ Package pdftex.def Info: include/../../code/figures/chapter2/exercise2.11.png  u
 
 
 ] [9] [10] [11] [12] [13]) [14]
+\openout2 = `chapters/chapter4.aux'.
+
+ (chapters/chapter4.tex) [15
+
+
+
+]
 No complaints by nag.
-(main.aux (chapters/chapter1.aux) (chapters/chapter2.aux) (chapters/chapter3.aux))
+(main.aux (chapters/chapter1.aux) (chapters/chapter2.aux) (chapters/chapter3.aux) (chapters/chapter4.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2428CAA21D7D224B2026B8D6177BE741;6027.
+(rerunfilecheck)             Checksum: 687B0DB65598F6DDD149D80BC91A77BB;6290.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45210 strings out of 474423
- 955725 string characters out of 5741719
+ 45240 strings out of 474423
+ 956861 string characters out of 5741719
  1949496 words of memory out of 5000000
- 66674 multiletter control sequences out of 15000+600000
+ 66694 multiletter control sequences out of 15000+600000
  608069 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,1216b,982s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (14 pages, 453088 bytes).
+Output written on main.pdf (15 pages, 456146 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
- 412 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 530 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
+ 428 words of extra memory for PDF output out of 10000 (max. 10000000)
 
