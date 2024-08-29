@@ -184,6 +184,14 @@ INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.st
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\ulem\ulem.sty
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\ulem\ulem.sty
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\bbm\bbm.sty
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\bbm\bbm.sty
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
@@ -584,6 +592,7 @@ OUTPUT chapters\chapter4.aux
 INPUT .\chapters\chapter4.tex
 INPUT .\chapters\chapter4.tex
 INPUT chapters\chapter4.tex
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr9.tfm
 INPUT main.aux
 INPUT .\chapters\chapter1.aux
 INPUT .\chapters\chapter1.aux
@@ -623,6 +632,8 @@ INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pf
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr9.pfb
+INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr9.pfb
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy6.pfb
